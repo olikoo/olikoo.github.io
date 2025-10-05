@@ -1,0 +1,59 @@
+body{
+    color: rgb(247, 232, 206);
+    background-color:hsla(198,31%,52%,1);
+    background-image:
+        radial-gradient(at 3% 23%, hsla(79,17%,2%,1) 0px, transparent 50%),
+        radial-gradient(at 95% 57%, hsla(87,17%,2%,1) 0px, transparent 50%),
+        radial-gradient(at 91% 10%, hsla(134,17%,2%,1) 0px, transparent 50%),
+        radial-gradient(at 23% 52%, hsla(217,17%,2%,1) 0px, transparent 50%),
+        radial-gradient(at 70% 94%, hsla(87,17%,2%,1) 30px, transparent 70%),
+        radial-gradient(at 21% 93%, hsla(254,17%,2%,1) 0px, transparent 50%),
+        radial-gradient(at 48% 9%, hsla(121,17%,2%,1) 0px, transparent 50%);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: 2vw;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1, p{
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+div{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.grow{
+    transition-duration: 1000ms;
+    transition-delay: 0.2s;
+}
+
+.grow:hover{
+    color: hsla(242,100%,70%,1);
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    opacity: 0;
+    font-size: 15vw;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.hello{
+    opacity: 90%;
+}
