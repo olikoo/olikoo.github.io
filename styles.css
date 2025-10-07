@@ -1,3 +1,6 @@
+
+
+
 body{
     color: rgb(247, 232, 206);
     background-color:hsla(198,31%,52%,1);
@@ -59,13 +62,13 @@ a{
 
 .main-flex{
     display: flex;
-    margin: 5vh 5vw 15vh 5vw;
+    margin: 2vh 5vw 18vh 5vw;
     width: 90vw;
     height: 80vh;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    column-gap: 10vw;
+    column-gap: 5vw;
 }
 
 .flex-text{
@@ -74,14 +77,14 @@ a{
     max-width: 100%;
     align-items: center;
     justify-content: center;
-    flex-grow: 5;
-    row-gap: 2vmin;
+    flex-grow: 3;
+    row-gap: 1vmin;
 }
 
 .flex-img{
     display: flex;
     width: auto;
-    height: 60vmin;
+    height: 50vmin;
     flex-grow: 1;
     max-width: 100%;
     transition-duration: 500ms;
@@ -91,10 +94,12 @@ a{
     transform: scale(1.1);
     transform: rotate(2deg);
     transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    filter:invert(100%);
 }
 
 .main-h1{
     font-size: 6vmin;
+    margin: 2vmin auto;
 }
 
 .main-p{
@@ -103,19 +108,27 @@ a{
 }
 
 .bio-list{
-    color: rgb(156, 156, 156);
+    color: rgb(134, 132, 114);
+}
+
+ul{
+    display: inline;
+    align-items: left;
+    list-style-type: none;
+    font-size: 1.5vmin;
 }
 
 .pages{
     display: flex;
     flex-direction: column;
-    margin: -20vh 5vw 15vh 5vw;
+    margin: -28vh 5vw 15vh 5vw;
     width: 90vw;
     height: 2vh;
     justify-content:space-around;
     align-items:center;
     font-size: 2vmin;
     column-gap: 1vw;
+    row-gap: 2vmin;
     flex-wrap: nowrap;
 }
 
@@ -123,12 +136,31 @@ a{
     border: 2px solid rgb(27, 27, 27);
     border-top: 0;
     border-bottom: 0;
+    /* border-right: 0;
+    border-left: 0; */
     padding: 2vmin 8vmin 2vmin 8vmin;
 }
 
+
 .pages-a:hover{
-    background-image: linear-gradient(45deg, rgb(87, 32, 66), transparent);
+    background-image: linear-gradient(180deg, rgb(24, 9, 18), transparent);
+    /*background-image: linear-gradient(180deg, rgb(87, 32, 66), transparent);*/
 }
 
+#emb-player{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
 
+footer{
+    display: block;
+    opacity: 20%;
+    margin-bottom: 200px;
+    position: fixed;
+    bottom: -11rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5vmin;
+}
 
