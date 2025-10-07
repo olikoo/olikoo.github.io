@@ -2,6 +2,7 @@
 
 
 body{
+    -webkit-font-smoothing: antialiased;
     color: rgb(247, 232, 206);
     background-color:hsla(198,31%,52%,1);
     background-image:
