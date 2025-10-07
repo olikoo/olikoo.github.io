@@ -15,7 +15,6 @@ body{
     font-size: 2vw;
     margin: 0 auto;
     overflow: hidden;
-    
 }
 
 .v-center {
@@ -56,4 +55,77 @@ a{
 
 .hello{
     opacity: 90%;
+}
+
+.main-flex{
+    display: flex;
+    margin: 5vh 5vw 15vh 5vw;
+    width: 90vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    column-gap: 10vw;
+}
+
+.flex-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 5;
+    row-gap: 2vmin;
+}
+
+.flex-img{
+    display: flex;
+    width: auto;
+    height: 60vmin;
+    flex-grow: 1;
+    max-width: 100%;
+    transition-duration: 500ms;
+}
+
+.flex-img:hover{
+    transform: scale(1.1);
+    transform: rotate(2deg);
+    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.main-h1{
+    font-size: 6vmin;
+}
+
+.main-p{
+    font-size: 2vmin;
+    width: 50%;
+}
+
+.bio-list{
+    color: rgb(156, 156, 156);
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+    margin: -20vh 5vw 15vh 5vw;
+    width: 90vw;
+    height: 2vh;
+    justify-content:space-around;
+    align-items:center;
+    font-size: 2vmin;
+    column-gap: 1vw;
+    flex-wrap: nowrap;
+}
+
+.pages-a{
+    border: 2px solid rgb(27, 27, 27);
+    border-top: 0;
+    border-bottom: 0;
+    padding: 2vmin 8vmin 2vmin 8vmin;
+}
+
+.pages-a:hover{
+    background-image: linear-gradient(45deg, rgb(87, 32, 66), transparent);
 }
