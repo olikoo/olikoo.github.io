@@ -1,8 +1,5 @@
 
-
-
 body{
-    -webkit-font-smoothing: antialiased;
     color: rgb(247, 232, 206);
     background-color:hsla(198,31%,52%,1);
     background-image:
@@ -15,6 +12,7 @@ body{
         radial-gradient(at 48% 9%, hsla(121,17%,2%,1) 0px, transparent 50%);
     width: 100%;
     height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 2vw;
     margin: 0 auto;
@@ -118,11 +116,12 @@ a{
 
 .bio-list{
     color: rgb(134, 132, 114);
+    width: 30vmin;
 }
 
 ul{
     display: inline;
-    align-items: left;
+    align-items: start;
     list-style-type: none;
     font-size: 2vmin;
 }
@@ -173,4 +172,3 @@ footer{
     text-align: center;
     font-size: 1.5vmin;
 }
-

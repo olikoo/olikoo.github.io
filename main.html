@@ -4,12 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="theme-color" content="#323232">
+        <meta name="description" content="Kniss artistpage">
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="icon.png" type="image/png">
         <title>Kniss</title>
     </head>
     <body>
-        <div class="main-flex">
+        <div class="main-flex" role="main">
             <div class="flex-text main-p">
                 <h1 class="main-h1">BIO</h1>
                 <main>
@@ -17,24 +18,24 @@
                     <br>
                     <p>I've always loved the concept of minimalism and having a carefully selected combination of sounds that comliment each other. Also contrasts in music production elements have captivating effects.</p>
                 </main>
-                <section class="bio-list">
+                <div class="bio-list" role="complementary">
                     <ul>
                         <li>Music Production</li>
                         <li>Mixing & Mastering</li>
                         <li>Sound Design</li>
                     </ul>
-                </section>
+                </div>
             </div>
             <div class="flex-img">
-                <img src="./artistbwinv.png" alt="artist-picture">
+                <img src="./artistbwinv.png" alt="artist-picture" fetchpriority="high">
             </div>
         </div>
-        <div class="pages">
+        <nav class="pages" role="navigation">
             <a class="pages-a" href="./music.html">─ Listen ─</a>
             <a class="pages-a" href="./contact.html">Contact</a>
-        </div>
+        </nav>
+        <footer role="contentinfo">
+            <p>©2025 Kniss</p>
+        </footer>
     </body>
-    <footer>
-        <p>©2025 Kniss</p>
-    </footer>
 </html>
