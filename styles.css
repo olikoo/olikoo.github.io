@@ -109,7 +109,7 @@ a{
 }
 
 .main-p{
-    font-size: 2vmin;
+    font-size: 2.3vmin;
     width: 50%;
     max-width: 1000px;
 }
@@ -123,7 +123,7 @@ ul{
     display: inline;
     align-items: start;
     list-style-type: none;
-    font-size: 2vmin;
+    font-size: 2.2vmin;
 }
 
 .pages{
@@ -134,7 +134,7 @@ ul{
     height: 2vh;
     justify-content:space-around;
     align-items:center;
-    font-size: 2vmin;
+    font-size: 2.3vmin;
     column-gap: 1vw;
     row-gap: 2vmin;
     flex-wrap: nowrap;
